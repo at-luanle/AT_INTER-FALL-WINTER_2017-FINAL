@@ -1,0 +1,18 @@
+body {
+  width: 100%;
+  height: auto;
+  font-family: $font-content;
+  font-size: $primary-font;
+  background-color: map-get($color, white);
+}
+.container {
+  max-width: 1240px;
+  height: auto;
+  margin: 0px auto;
+}
+.btn {
+  background-color: map-get($color, four);
+  font-family: $font-zeyada;
+  color: map-get($color, white);
+  font-size: $font-18;
+}
