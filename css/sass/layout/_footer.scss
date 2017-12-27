@@ -1,0 +1,118 @@
+.footer {
+  clear: both;
+  width: 100%;
+  height: 489px;
+  font-size: $primary-font;
+  font-family: $font-opensans;
+  background-image: url('../img/footer-top-overlay.png'), url('../img/footer-bottom-right.png'),url('../img/footer-bottom-bg.jpg');
+  background-color: map-get($color, primary);
+  background-repeat: repeat-x,no-repeat,repeat-x;
+  background-position: left top,right bottom,left top;
+  background-size: 3000px 48px,1500px 422px,auto 100%;
+  .container {
+    margin-top: 100px;
+    padding-top: 100px;
+    .footer-about {
+      width: 22%;
+      height: auto;
+      float: left;
+      padding-right: 4%;
+      p {
+        padding-bottom: 20px;
+        line-height: 25px;
+      }
+    }
+    .footer-link {
+      width: 22%;
+      height: auto;
+      float: left;
+      padding-right: 4%;
+      li {
+        line-height: 40px;
+      }
+      li::before {
+        content: ">";
+        padding-right: 10px;
+      }
+    }
+    .footer-newsletter {
+      width: 22%;
+      height: auto;
+      float: left;
+      padding-right: 4%;
+      input {
+        background: map-get($color, white);
+        width: 235px;
+        height: 43px;
+        color: map-get($color, black);
+        font-family: $font-opensans;
+        font-size: $font-13;
+        padding-left: 10px;
+        margin-bottom: 25px;
+        border: 1px solid map-get($color, secondary);
+      }
+      button {
+        font-family: $font-zeyada;
+        font-weight: $font-bold;
+        border: 1px solid map-get($color, secondary);
+        width: 145px;
+        height: 49px;
+        background-color: map-get($color, white);
+        line-height: 49px;
+      }
+      .footer-capcha {
+        margin-top: 20px;
+        width: 256px;
+        height: 60px;
+        font-size: $font-12;
+        color: map-get($color, white);
+        background-color: map-get($color, five);
+        padding-left: 10px;
+        a {
+          margin-top: -20px;
+          color: map-get($color, white);
+          padding-right: 10px;
+        }
+        p {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        .footer-capcha-left {
+          width: 186px;
+          float: left;
+        }
+        .footer-capcha-right {
+          background-color: map-get($color, white);
+          height: 100%;
+          width: 70px;
+          float: right;
+          img {
+            padding-top: 5px;
+            padding-left: 12px;
+          }
+        }
+      }
+    }
+    .footer-contract {
+      width: 22%;
+      height: auto;
+      float: left;
+      .fa {
+        opacity: 0.5;
+        padding-right: 15px;
+      }
+    }
+  }
+  h2 {
+    font-family: $font-zeyada;
+    font-size: $third-font;
+    color: map-get($color, primary);
+    padding-bottom: 0px;
+  }
+  .footer-intro {
+    clear: both;
+    text-align: center;
+    font-size: $font-12;
+    padding-top: 40px;
+  }
+}
