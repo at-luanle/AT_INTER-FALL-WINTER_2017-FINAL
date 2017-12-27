@@ -1,0 +1,34 @@
+.banner {
+  width : 100%;
+  height : auto;
+  background-color : map-get($color, white);
+  border-top : 1px solid map-get($color, secondary);
+  margin-top : 2px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  .banner-img {
+    height : auto;
+    width : 100%;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: url(../img/banner-overlay-top-tile.png) no-repeat;
+    height: 96px;
+    width: 100%;
+    z-index: 3;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background: url(../img/banner-overlay-bottom-tile.png) no-repeat center bottom;
+    height: 96px;
+    width: 100%;
+    z-index: 4;
+  }
+}

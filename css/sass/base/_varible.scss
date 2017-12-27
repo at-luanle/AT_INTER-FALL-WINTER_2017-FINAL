@@ -1,0 +1,38 @@
+@font-face {
+  font-family:Zeyada;
+  src: url('../fonts/Zeyada.ttf');
+}
+@font-face {
+  font-family:OpenSans-Light;
+  src: url('../fonts/OpenSans-Light.ttf');
+}
+$color: (
+  primary : #5da5b9,
+  secondary : #f0f0f0,
+  third : #333333,
+  four : #79c3d7,
+  five : #4a90e2,
+  danger : #ff3b30,
+  info : #5ac8fa,
+  disable : #d9d9d9,
+  black : #000,
+  white : #fff,
+  gray : #f2f3f9,
+  green : #4cd964,
+  pink : #ff2d55,
+  red : #ff0000,
+);
+
+$font-content : sans-serif;
+$font-zeyada: Zeyada;
+$font-opensans: OpenSans-Light;
+
+$primary-font : 14px;
+$secondary-font : 16px;
+$third-font : 45px;
+$font-12 : 12px;
+$font-13 : 13px;
+$font-17 : 17px;
+$font-18 : 18px;
+
+$font-bold : bold;
