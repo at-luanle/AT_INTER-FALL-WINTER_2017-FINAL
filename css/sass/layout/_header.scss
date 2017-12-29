@@ -1,0 +1,13 @@
+.header {
+  height: 223px;
+  width: 100%;
+  text-align: center;
+  background: url('../img/header-clouds.png') no-repeat;
+  background-color: map-get($color, primary);
+  background-position: center top;
+  border-bottom: 1px solid map-get($color, secondary);
+  opacity: 0.2;
+  .header-img {
+    margin-top: 40px;
+  }
+}

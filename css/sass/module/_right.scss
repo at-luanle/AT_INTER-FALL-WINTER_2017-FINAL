@@ -1,0 +1,75 @@
+.section-right {
+  width: 25%;
+  height: auto;
+  float: right;
+  margin-right: 50px;
+  .aside {
+    width: 100%;
+    height: auto;
+    border: 1px solid map-get($color, secondary);
+    margin-bottom: 50px;
+    padding: 0px 25px;
+    position: relative;
+    h2 {
+      font-size: $third-font;
+      font-family: $font-zeyada;
+      color: map-get($color, primary);
+      background-color: map-get($color, white);
+      display: block;
+      width: 218px;
+      height: 72px;
+      position: relative;
+      top: -15px;
+      text-align: center;
+      margin-left: 50px;
+    }
+    .aside-container {
+      margin-top: -15px;
+      padding-bottom: 60px;
+      position: relative;
+      p {
+        width: 45%;
+        line-height: 25px;
+        padding-right: 50px;
+        float: left;
+      }
+      img {
+        @include border-radius(50%);
+      }
+    }
+    .block {
+      margin-top: -15px;
+      width: 100%;
+      height: auto;
+      margin-top: -30px;
+      line-height: 45px;
+      padding-bottom: 20px;
+      position: relative;
+      li {
+        border-bottom: 1px solid map-get($color, secondary);
+      }
+    }
+    .inline {
+      margin-top: -15px;
+      display: inline-block;
+      margin-bottom: 25px;
+      li {
+        text-transform: uppercase;
+        float: left;
+        padding-right: 25px;
+        padding-top: 15px;
+      }
+    }
+    .aside-instagram {
+      margin-top: -15px;
+      padding-bottom: 30px;
+      position: relative;
+      img {
+        width: 90px;
+        height: 90px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
